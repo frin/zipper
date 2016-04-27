@@ -119,7 +119,7 @@ num_disk_start = '0000'
 total_entries = rot2b(num_files)
 total_entries_this_disk = rot2b(num_files)
 zip_comment = b''
-# zip_comment = b'This is an example global ZIP file comment'
+zip_comment = b'This is an example global ZIP file comment'
 comment_length = rot2b(len(zip_comment))
 
 dir_disk_number = 0
